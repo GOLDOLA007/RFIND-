@@ -1,4 +1,4 @@
-# ⚙️ RFIND | Business Tracking and Management System
+# RFIND | Business Tracking and Management System
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-17+-orange?style=for-the-badge&logo=java" alt="Java">
