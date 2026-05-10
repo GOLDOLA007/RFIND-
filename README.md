@@ -18,6 +18,7 @@ A robust **REST API** for user management, built with **Spring Boot 3**. This pr
 
 * **Backend:** Java 17+, Spring Boot 3.x
 * **Data:** Spring Data JPA, MySQL
+* **Frontend:** Java Swing
 * **Security:** Spring Security (Authentication & BCrypt Encryption)
 * **Documentation:** SpringDoc OpenAPI (Swagger)
 * **Build Tool:** Maven
