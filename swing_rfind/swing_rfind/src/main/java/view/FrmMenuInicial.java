@@ -1,7 +1,6 @@
 package view;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import model.DAO.LeitorSerial;
 
 import javax.swing.*;
 import java.awt.*;

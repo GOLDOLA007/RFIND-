@@ -1,6 +1,5 @@
 package view;
 
-import model.DAO.LeitorSerial;
 
 import javax.swing.*;
 import java.awt.*;

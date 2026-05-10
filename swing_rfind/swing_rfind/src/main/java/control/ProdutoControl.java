@@ -2,7 +2,6 @@ package control;
 
 import ApiClient.ProdutoClient;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import model.DAO.ProdutoDAO;
 import model.Empresa;
 import model.Produto;
 import model.dto.FuncionarioUpdateDTO;
@@ -16,11 +15,9 @@ import java.util.List;
 
 public class ProdutoControl {
 
-    private ProdutoDAO produtoDAO;
     private ProdutoClient produtoClient;
     public ProdutoControl()
     {
-        produtoDAO = new ProdutoDAO();
         produtoClient = new ProdutoClient();
     }
     public void insert(Produto produto){

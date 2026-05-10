@@ -3,7 +3,6 @@ package control;
 import ApiClient.FuncionarioClient;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import model.Empresa;
-import model.DAO.FuncionarioDAO;
 import model.Funcionario;
 import model.dto.FuncionarioUpdateDTO;
 
@@ -12,11 +11,9 @@ import java.io.IOException;
 import java.util.List;
 
 public class FuncionarioControl {
-    private FuncionarioDAO funcionarioDAO;
     private FuncionarioClient funcionarioClient;
     public FuncionarioControl()
     {
-        funcionarioDAO = new FuncionarioDAO();
         funcionarioClient = new FuncionarioClient();
     }
     public void insert(Funcionario funcionario){

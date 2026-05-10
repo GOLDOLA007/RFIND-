@@ -2,7 +2,6 @@ package control;
 
 import ApiClient.LocalClient;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import model.DAO.LocalDAO;
 import model.Empresa;
 import model.Local;
 import model.dto.LocalUpdateDTO;
@@ -14,7 +13,6 @@ import java.util.List;
 public class LocalControl {
 
 
-    private LocalDAO lDao = new LocalDAO();
     private LocalClient localClient = new LocalClient();
 
     public void cadastrarLocal(Local local) throws JsonProcessingException {
