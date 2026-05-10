@@ -14,6 +14,14 @@
 
 ---
 
+### ✨ Key Features
+
+- **Full CRUD Management:** Products, Employees, and Locations.
+- **Hardware Integration:** Real-time logging of employee movement via Arduino sensors.
+- **Smart Tracking:** Logs include Employee ID, Timestamp, Location, and Sensor ID.
+- **Automated Reporting:** Generate professional PDF reports of all access logs.
+- **Modern Security:** Role-based access and password encryption.
+
 ### 🛠️ Tech Stack
 
 * **Backend:** Java 17+, Spring Boot 3.x
@@ -27,6 +35,13 @@
 
 ---
 
+### 🔌 Arduino Setup
+
+The hardware component uses an **Arduino [Uno]** with **[RFID]**. 
+The communication with the Spring Boot backend is handled via **[Serial Port]**, ensuring that every physical detection triggers a digital record in the database.
+
+---
+
 ### 📦 Installation & Setup
 
 1️⃣ **Clone the repository**
@@ -35,7 +50,7 @@ git clone [https://github.com/your-username/RFIND-.git](https://github.com/your-
 ```
 
 2️⃣ **Configure Database**
-Update your `src/main/resources/application.properties` with your Neon credentials:
+Update your `src/main/resources/application.properties` with your database credentials:
 ```properties
 spring.datasource.url=jdbc:mysql://your-mysql-host/mysql
 spring.datasource.username=your-username
