@@ -1,4 +1,4 @@
-# ⚙️ RFIND
+# ⚙️ RFIND | Business Tracking and Management System
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-17+-orange?style=for-the-badge&logo=java" alt="Java">
@@ -10,7 +10,7 @@
 ---
 
 ### 📝 Description
-A robust **REST API** for user management, built with **Spring Boot 3**. This project features seamless integration with **Neon (PostgreSQL)** in the cloud, focusing on high security standards, industry-standard encryption, and automated interactive documentation.
+**RFIND** is a complete internal monitoring and management solution, designed to integrate administrative control of assets and personnel with the precision of embedded systems. The system allows not only the management of basic records, but also real-time tracking of employee movement via sensors.
 
 ---
 
@@ -19,6 +19,8 @@ A robust **REST API** for user management, built with **Spring Boot 3**. This pr
 * **Backend:** Java 17+, Spring Boot 3.x
 * **Data:** Spring Data JPA, MySQL
 * **Frontend:** Java Swing
+* **Hardware:** Arduino (Integration of sensors for data capture).
+* **Reports:** JasperReports / iText (PDF document generation).
 * **Security:** Spring Security (Authentication & BCrypt Encryption)
 * **Documentation:** SpringDoc OpenAPI (Swagger)
 * **Build Tool:** Maven
